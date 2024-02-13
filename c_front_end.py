@@ -4,8 +4,8 @@ import b_backend
 import streamlit as st
 from streamlit_chat import message
 
-st.title("App No Moleste Usuario de Negocio")
-st.write("Puedes hacerme a mi todas las preguntas y dejar trabajar al equipo de Data Science!!")
+st.title("App No Moleste Usuario")
+st.write("Puedes hacerme a mi todas las preguntas!!")
 
 if 'preguntas' not in st.session_state:
     st.session_state.preguntas = []
